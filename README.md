@@ -1,30 +1,41 @@
-# JavaScript 栈在线练习模板
+# Calc stats
+## 教学目标
+练习面向对象编程的封装。
 
-## 官方人员使用方法
+## 需求描述
+你的任务是处理一个整数集合，计算下面的状态：
+* 最小值
+* 最大值
+* 序列中的元素个数
+* 平均值
 
-1. 在github的tws-online-quiz下建一个库，比如pos-v0-node
-2. 安装小工具tws-quiz-tool: ```$ npm install -g tws-quiz-tool ```
-3. 在本地执行qinit + 库名，比如``` $ qinit pos-v0-node ```
-4. 写完内容完毕，push：```$ git push -u origin master ```
-5. 然后切换到answer分支并merge ``` $ git checkout answer && git merge master```
-6. 写完answer内容，push：```$ git push -u origin master ```
+比如， [6, 9, 15, -2, 92, 11]，应输出如下：
+```
+o) 最小值 = -2
+o) 最大值 = 92
+o) 元素数量 = 6
+o) 平均值 = 21.833333
+```
 
+## 作业要求
+1. 根据```spec/main-spec.js```中的测试用例，在```src/main.js```文件中编写实现代码并确保测试通过；
+2. 请在保证代码可读性的前提下，尽可能用最少的代码行数完成作业；
+3. 将结果输出到控制台。
 
-## 每道题请添加下列内容
+## 作业提示
+1. 使用 `console.log` 输出调试
 
+## 如何使用
 
-    ## 如何使用
-    
-    首先初次下载完需要安装依赖：
-    ```
-      npm install
-    ```
-    
-    然后才能执行测试：
-    
-    ```
-      npm test
-    ```
-    
-    可以通过测试来检测本地代码是否完成作业要求，测试通过即可提交到github，把git库地址填到答题页面，并提交表单。
-    
+首先初次下载完需要安装依赖：
+```
+  npm install
+```
+
+然后才能执行测试：
+
+```
+  npm test
+```
+
+可以通过测试来检测本地代码是否完成作业要求，测试通过即可提交到github，把git库地址填到答题页面，并提交表单。

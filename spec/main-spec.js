@@ -1,15 +1,12 @@
 const main = require('../main/main');
 
 describe('main()', () => {
-
-    it('should console log "Debug Info"', () => {
+    it('should print stats', () => {
         spyOn(console, 'log');
         main();
-        expect(console.log).toHaveBeenCalledWith('Debug Info');
-    });
-
-    it('should return "Hello World!"', () => {
-        let actual = main();
-        expect(actual).toBe('Hello World!');
+        expect(console.log).toHaveBeenCalledWith(`o) 最小值 = -2
+o) 最大值 = 92
+o) 元素数量 = 6
+o) 平均值 = 21.833333`);
     });
 });
