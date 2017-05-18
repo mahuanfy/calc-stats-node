@@ -1,9 +1,5 @@
-# Calc stats
-## 教学目标
-练习面向对象编程的封装。
-
-## 需求描述
-你的任务是处理一个整数集合，计算下面的状态：
+## 统计状态
+处理一个整数集合，计算下面的状态：
 * 最小值
 * 最大值
 * 序列中的元素个数
@@ -14,25 +10,20 @@
 o) 最小值 = -2
 o) 最大值 = 92
 o) 元素数量 = 6
-o) 平均值 = 21.833333
+o) 平均值 = 21.83
 ```
-
-## 作业要求
-1. 根据```spec/main-spec.js```中的测试用例，在```src/main.js```文件中编写实现代码并确保测试通过；
-2. 请在保证代码可读性的前提下，尽可能用最少的代码行数完成作业；
-3. 将结果输出到控制台。
-
-## 作业提示
-1. 使用 `console.log` 输出调试
+注：保留小数点后两位。
 
 ## 参考资料
-1. [npm 下载安装](https://github.com/npm/npm)
-2. [node 下载安装](https://github.com/creationix/nvm)
-3. [jasmine用法](http://jasmine.github.io/2.4/introduction.html)
-6. [git简易指南](http://gitref.org/zh/index.html)
-4. [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
-5. [ECMAScript 6 Class Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-6. [ECMAScript 6 Array Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+1. [Javascript基础](http://codefordream.com/courses/js_basic/sections)
+2. [Javascript初级训练营](http://codefordream.com/courses/js_learning_camps/sections)
+3. [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
+4. [npm 下载安装](https://github.com/npm/npm)
+5. [node 下载安装](https://github.com/creationix/nvm)
+6. [jasmine用法](http://jasmine.github.io/2.4/introduction.html)
+7. [Git 参考手册](http://gitref.org/zh/index.html)
+
 
 ## 答题流程
 - 请用户仔细阅读题目要求和题目描述
