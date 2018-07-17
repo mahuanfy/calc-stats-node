@@ -21,10 +21,9 @@ class Sequence {
   }
   average(){
     var sum=0;
-    for (var i = 0; i < this.input.length; i++) {
+    for (var i = 0; i < this.arrayLength(); i++) {
         sum+=this.input[i];
     };
-    var avg=(sum/this.input.length).toFixed(2);
-    return avg
+    return (sum/this.arrayLength()).toFixed(2);
   }
 }
